@@ -214,6 +214,9 @@ dropdown area
 .navbar ul li ul.dropdown li:hover{
 	background-color: #333;
 }
+.navbar ul li ul.dropdown li:hover a{
+	color: #fff;
+}
 .navbar ul li ul.dropdown ul{
 	position: absolute;
 	width: 150px;
@@ -243,7 +246,7 @@ hero area
 	display: block;
 }
 #hero_area h1{
-	font-size: 	86px;
+	font-size: 86px;
 	color: #000;
 	font-weight: normal;
 	line-height: 1em;
