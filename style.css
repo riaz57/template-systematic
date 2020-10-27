@@ -189,6 +189,8 @@ navigation area
 	padding: 15px 12px;
 	color: #fff;
 	text-transform: uppercase;
+}
+#main_menu .navbar>ul>li>a{
 	transition: 0.4s;
 }
 #main_menu .navbar ul li a:hover{
@@ -205,11 +207,10 @@ dropdown area
 	top: 100%;
 	left: 0;
 	background-color: #ba2e1f;
-	display: block;
-	visibility: hidden;
+	display: none;
 }
 .navbar ul li:hover ul.dropdown{
-	visibility: visible;
+	display: block;
 }
 .navbar ul li ul.dropdown li:hover{
 	background-color: #333;
@@ -222,12 +223,11 @@ dropdown area
 	width: 150px;
 	top: 0;
 	left: 140px;
-	display: block;
+	display: none;
 	background-color: #ba2e1f;
-	visibility: hidden;
 }
 .navbar ul li ul.dropdown li:hover ul{
-	visibility: visible;
+	display: block;
 }
 
 /*===============================
