@@ -214,9 +214,6 @@ dropdown area
 .navbar ul li ul.dropdown li:hover{
 	background-color: #333;
 }
-.navbar ul li ul.dropdown li:hover a{
-	color: #fff!important;
-}
 .navbar ul li ul.dropdown ul{
 	position: absolute;
 	width: 150px;
