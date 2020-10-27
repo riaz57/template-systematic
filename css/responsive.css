@@ -1,0 +1,47 @@
+/*==	for tablet table-layout 	====*/
+
+@media only screen and (min-width: 400px) and (max-width: 991px){
+
+#header_bottom {margin: 20px 0;}
+header .logo img {width: 85%;}
+#header_bottom .social_links ul li {margin-top: 12px;}
+.navbar ul li ul.dropdown {position: relative; width: 100%;}
+.navbar ul li ul.dropdown ul{position: relative; width: 100%;}
+.mean-container .mean-nav ul li {width: 95%;}
+.navbar ul li ul.dropdown{background-color: inherit;}
+.navbar ul li ul.dropdown ul{background-color: inherit;}
+.navbar ul li ul.dropdown li:hover{background-color: inherit;}
+#header_top .mini_menu {width: 60%;}
+#header_top .search_area {width: 40%;}
+#hero_area h1 {font-size: 42px;}
+#work_area .child_work_area h2{font-size: 23px;}
+#work_area .client_area .client_item h3 strong img {width: 60%;	margin-right: 0;}
+#work_area .client_area .client_item h3 {font-size: 15px;}
+footer .child_footer {width: 48%; margin: 0 1%;}
+
+}
+
+/*==	for mobile layout 	====*/
+
+@media only screen and (min-width: 200px) and (max-width: 620px){
+
+.navbar ul li ul.dropdown {position: relative; width: 100%;}
+.navbar ul li ul.dropdown ul{position: relative; width: 100%;}
+#header_top .mini_menu {width: 100%; float: none; text-align: center; margin: 10px 0;}
+#header_top .search_area {width: 100%; float: none;}
+#header_top .search_area form {margin: 15px auto; float: none;}
+#header_bottom .logo {float: none; margin: auto;}
+#header_bottom .logo a {text-align: center;}
+#header_bottom .social_links {float: none;}
+#header_bottom .social_links ul{text-align: center;}
+#hero_area img {float: none; margin: auto;}
+#hero_area h1 {font-size: 28px;}
+#work_area .child_work_area {width: 98%; margin: 0 1%;}
+footer .child_footer {width: 98%; margin: 0 1%;}
+#work_area .service_area .service_item .service_image {margin-right: 1%;}
+#work_area .service_area .service_item .service_text {width: 74%;}
+footer .inner_footer .footer_contacts input[type="submit"] {padding: 4% 6%;}
+.copyright_area .left_copyright {float: none; width: 100%; text-align: center;}
+.copyright_area .right_copyright {float: none; width: 100%; text-align: center;}
+
+}
