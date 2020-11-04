@@ -5,11 +5,9 @@
 #header_bottom {margin: 20px 0;}
 header .logo img {width: 85%;}
 #header_bottom .social_links ul li {margin-top: 12px;}
-.navbar ul li ul.dropdown {display:block; position: relative; width: 100%;}
-.navbar ul li ul.dropdown ul{display:block; position: relative; width: 100%;}
+.navbar ul li ul.dropdown {display:block; position: relative; width: 100%; background-color: inherit;}
+.navbar ul li ul.dropdown ul{display:block; position: relative; width: 90%; background-color: inherit;}
 .mean-container .mean-nav ul li {width: 95%;}
-.navbar ul li ul.dropdown{background-color: inherit;}
-.navbar ul li ul.dropdown ul{background-color: inherit;}
 .navbar ul li ul.dropdown li:hover{background-color: inherit;}
 #header_top .mini_menu {width: 60%;}
 #header_top .search_area {width: 40%;}
