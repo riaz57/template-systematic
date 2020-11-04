@@ -1,10 +1,11 @@
 /*==	for tablet table-layout 	====*/
 
-@media only screen and (min-width: 400px) and (max-width: 991px){
+@media only screen and (min-width: 200px) and (max-width: 991px){
 
 #header_bottom {margin: 20px 0;}
 header .logo img {width: 85%;}
 #header_bottom .social_links ul li {margin-top: 12px;}
+  .navbar ul li:hover ul{display: none;}
 .navbar ul li ul.dropdown {position: relative; width: 100%;}
 .navbar ul li ul.dropdown ul{position: relative; width: 100%;}
 .mean-container .mean-nav ul li {width: 95%;}
